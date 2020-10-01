@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>173</ID>
+      <Description>"Blacklist (uses blacklist.txt with Steam IDs in the same location as the table, press right CTRL to add the last match)"</Description>
+      <Options moAlwaysHideChildren="1"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3</ID>
+          <Description>"clientOpponent"</Description>
+          <VariableType>String</VariableType>
+          <Length>20</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"TekkenGame-Win64-Shipping.exe"+34B8EA0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"clientOpponentIdWriter"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>TekkenGame-Win64-Shipping.exe+5100E70 </Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>45</ID>
+          <Description>"hostOpponent"</Description>
+          <VariableType>String</VariableType>
+          <Length>18</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"TekkenGame-Win64-Shipping.exe"+034B6B28</Address>
+          <Offsets>
+            <Offset>138</Offset>
+            <Offset>2c8</Offset>
+            <Offset>60</Offset>
+            <Offset>58</Offset>
+            <Offset>10</Offset>
+            <Offset>0</Offset>
+            <Offset>30</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>46</ID>
+          <Description>"hostId"</Description>
+          <VariableType>String</VariableType>
+          <Length>18</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"TekkenGame-Win64-Shipping.exe"+034B6B28</Address>
+          <Offsets>
+            <Offset>118</Offset>
+            <Offset>2c8</Offset>
+            <Offset>60</Offset>
+            <Offset>58</Offset>
+            <Offset>10</Offset>
+            <Offset>0</Offset>
+            <Offset>30</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>170</ID>
+          <Description>"setLobbyResult"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>TekkenGame-Win64-Shipping.exe+549F002 </Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>171</ID>
+          <Description>"text"</Description>
+          <VariableType>String</VariableType>
+          <Length>27</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"TekkenGame-Win64-Shipping.exe"+34B7550</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>a28</Offset>
+            <Offset>30</Offset>
+            <Offset>0</Offset>
+            <Offset>0</Offset>
+            <Offset>48</Offset>
+            <Offset>c0</Offset>
+            <Offset>48</Offset>
+            <Offset>940</Offset>
+            <Offset>58</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>184</ID>
+          <Description>"rankMessage"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>TekkenGame-Win64-Shipping.exe+585F286</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>190</ID>
+          <Description>"XInputGetState"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>TekkenGame-Win64-Shipping.exe+4F15434 </Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>183</ID>
+      <Description>"Blacklist Options"</Description>
+      <Options moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>177</ID>
+          <Description>"Audio alert on blacklisted match"</Description>
+          <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>180</ID>
+              <Description>"audioAlert"</Description>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>175</ID>
+          <Description>"Auto deny on blacklisted match (requires plugged in XInput controller)"</Description>
+          <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>179</ID>
+              <Description>"autoDeny"</Description>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>181</ID>
+          <Description>"Flash window in taskbar on non-blacklisted match"</Description>
+          <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>182</ID>
+              <Description>"flashWindow"</Description>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>188</ID>
+          <Description>"Auto accept on non-blacklisted match (requires plugged in XInput controller)"</Description>
+          <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>189</ID>
+              <Description>"autoAccept"</Description>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>191</ID>
+      <Description>"Show Hit Properties In Every Mode (High, Mid, Low)"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>define(address,"TekkenGame-Win64-Shipping.exe"+6F3C0C)
+define(bytes,74 0F 48 8B D7)
+
+[ENABLE]
+
+assert(address,bytes)
+alloc(newmem,$1000,"TekkenGame-Win64-Shipping.exe"+6F3C0C)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  //je TekkenGame-Win64-Shipping.exe+6F3C1D
+  mov rdx,rdi
+  jmp return
+
+address:
+  jmp newmem
+return:
+
+[DISABLE]
+
+address:
+  db bytes
+  // je TekkenGame-Win64-Shipping.exe+6F3C1D
+  // mov rdx,rdi
+
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: "TekkenGame-Win64-Shipping.exe"+6F3C0C
+
+"TekkenGame-Win64-Shipping.exe"+6F3BE9: 0F 28 C8                 -  movaps xmm1,xmm0
+"TekkenGame-Win64-Shipping.exe"+6F3BEC: 0F C6 C8 4E              -  shufps xmm1,xmm0,4E
+"TekkenGame-Win64-Shipping.exe"+6F3BF0: 0F 58 C8                 -  addps xmm1,xmm0
+"TekkenGame-Win64-Shipping.exe"+6F3BF3: 0F 51 C1                 -  sqrtps xmm0,xmm1
+"TekkenGame-Win64-Shipping.exe"+6F3BF6: 0F 5E D0                 -  divps xmm2,xmm0
+"TekkenGame-Win64-Shipping.exe"+6F3BF9: 0F 29 55 F0              -  movaps [rbp-10],xmm2
+"TekkenGame-Win64-Shipping.exe"+6F3BFD: E8 CE 91 03 00           -  call TekkenGame-Win64-Shipping.exe+72CDD0
+"TekkenGame-Win64-Shipping.exe"+6F3C02: 41 8B CF                 -  mov ecx,r15d
+"TekkenGame-Win64-Shipping.exe"+6F3C05: E8 66 9D FF FF           -  call TekkenGame-Win64-Shipping.exe+6ED970
+"TekkenGame-Win64-Shipping.exe"+6F3C0A: 84 C0                    -  test al,al
+// ---------- INJECTING HERE ----------
+"TekkenGame-Win64-Shipping.exe"+6F3C0C: 74 0F                    -  je TekkenGame-Win64-Shipping.exe+6F3C1D
+"TekkenGame-Win64-Shipping.exe"+6F3C0E: 48 8B D7                 -  mov rdx,rdi
+// ---------- DONE INJECTING  ----------
+"TekkenGame-Win64-Shipping.exe"+6F3C11: 48 8D 0D 28 79 DF 02     -  lea rcx,[TekkenGame-Win64-Shipping.exe+34EB540]
+"TekkenGame-Win64-Shipping.exe"+6F3C18: E8 C3 07 05 00           -  call TekkenGame-Win64-Shipping.exe+7443E0
+"TekkenGame-Win64-Shipping.exe"+6F3C1D: E8 7E BB 06 00           -  call TekkenGame-Win64-Shipping.exe+75F7A0
+"TekkenGame-Win64-Shipping.exe"+6F3C22: 48 85 C0                 -  test rax,rax
+"TekkenGame-Win64-Shipping.exe"+6F3C25: 74 10                    -  je TekkenGame-Win64-Shipping.exe+6F3C37
+"TekkenGame-Win64-Shipping.exe"+6F3C27: E8 74 BB 06 00           -  call TekkenGame-Win64-Shipping.exe+75F7A0
+"TekkenGame-Win64-Shipping.exe"+6F3C2C: 48 8B C8                 -  mov rcx,rax
+"TekkenGame-Win64-Shipping.exe"+6F3C2F: 48 8B D7                 -  mov rdx,rdi
+"TekkenGame-Win64-Shipping.exe"+6F3C32: E8 F9 9E 06 00           -  call TekkenGame-Win64-Shipping.exe+75DB30
+"TekkenGame-Win64-Shipping.exe"+6F3C37: 4C 8B B4 24 B8 00 00 00  -  mov r14,[rsp+000000B8]
+}
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>addressList = getAddressList()
+
+blacklist = addressList.getMemoryRecord(0)
+blacklist.active = true
+
+options = addressList.getMemoryRecordByDescription('Blacklist Options')
+options.active = true
+i = 0
+while i &lt; options.Count do
+  options[i].active=false
+  options[i].active=true
+  i = i + 1
+end
+
+clientOpponent = addressList.getMemoryRecordByDescription('clientOpponent')
+clientOpponentIdWriter = addressList.getMemoryRecordByDescription('clientOpponentIdWriter')
+hostOpponent = addressList.getMemoryRecordByDescription('hostOpponent')
+hostId = addressList.getMemoryRecordByDescription('hostId')
+setLobbyResult = addressList.getMemoryRecordByDescription('setLobbyResult')
+text = addressList.getMemoryRecordByDescription('text')
+rankMessage = addressList.getMemoryRecordByDescription('rankMessage')
+XInputGetState = addressList.getMemoryRecordByDescription('XInputGetState')
+
+audioAlert = addressList.getMemoryRecordByDescription('audioAlert')
+autoDeny = addressList.getMemoryRecordByDescription('autoDeny')
+flashWindow = addressList.getMemoryRecordByDescription('flashWindow')
+autoAccept = addressList.getMemoryRecordByDescription('autoAccept')
+
+matchedAsClient = false
+writerOpponentId = 0
+opponentId = 0
+opponent = ''
+hostOpponentOffset = 0
+button = 0x20
+buttonCounter = 0
+
+function pressButton(timer)
+  debug_setBreakpoint(XInputGetState.getCurrentAddress())
+  timer.destroy()
+end
+
+function checkBlacklist()
+  local f = assert(io.open("blacklist.txt", "r"))
+  local blacklistTxt = f:read("*all")
+  if string.find(blacklistTxt, opponentId) == nill then
+    text.Value = opponent
+    if(flashWindow.active) then
+      hwnd =  findWindow(nil, "TEKKEN 7 ")
+      executeCodeLocal('FlashWindow',hwnd,false)
+    end
+    if(autoAccept.active) then
+       t=createTimer(nil)
+       button = 0x10
+       t.OnTimer=pressButton
+       t.Interval=1500
+       t.Enabled=true
+    end
+  else
+     text.Value = opponent .. ' (Blacklisted!)'
+     if(audioAlert.active) then
+       speak('blacklist warning')
+     end
+     if(autoDeny.active) then
+       t=createTimer(nil)
+       button = 0x20
+       t.OnTimer=pressButton
+       t.Interval=1500
+       t.Enabled=true
+     end
+  end
+  f:close()
+end
+
+function addToBlacklist()
+ if opponentId ~= 0 then
+  local f = assert(io.open("blacklist.txt", "a"))
+  f:write(opponentId, "\n")
+  f:close()
+  speak(opponent .. ' added to blacklist.')
+ end
+ return true
+end
+
+function debugger_onBreakpoint()
+  if(RIP==clientOpponentIdWriter.getCurrentAddress())then
+      writerOpponentId = RAX
+      return 1
+  end
+  if(RIP==setLobbyResult.getCurrentAddress())then
+    matchedAsClient = true
+    hostOpponentOffset = R8
+    return 1
+  end
+  if(RIP==rankMessage.getCurrentAddress())then
+    if(matchedAsClient) then
+      opponent = readString(hostOpponent.getCurrentAddress()+(hostOpponentOffset*0x220))
+      opponentId = tonumber(readString(hostId.getCurrentAddress()+(hostOpponentOffset*0x220)), 16)
+      checkBlacklist()
+      matchedAsClient = false
+      return 1
+    else
+      opponent = clientOpponent.getValue()
+      opponentId = writerOpponentId
+      checkBlacklist()
+      return 1
+    end
+  end
+  if(RIP==XInputGetState.getCurrentAddress())then
+    writeInteger(RSP+0x38+0x5,button)
+    buttonCounter = buttonCounter + 1
+    if(buttonCounter &gt; 2) then
+      buttonCounter = 0
+      debug_removeBreakpoint(XInputGetState.getCurrentAddress())
+    end
+    return 1
+  end
+end
+
+createHotkey("addToBlacklist",VK_RCONTROL)
+
+function setBreakPoints(timer)
+  debug_setBreakpoint(clientOpponentIdWriter.getCurrentAddress())
+  debug_setBreakpoint(setLobbyResult.getCurrentAddress())
+  debug_setBreakpoint(rankMessage.getCurrentAddress())
+  timer.destroy()
+end
+
+function onOpenProcess(processid)
+  t=createTimer(nil)
+  t.OnTimer=setBreakPoints
+  t.Interval=1000
+  t.Enabled=true
+end
+
+getAutoAttachList().add("TekkenGame-Win64-Shipping.exe")
+</LuaScript>
+</CheatTable>
