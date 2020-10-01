@@ -1,2 +1,3 @@
 *.png export-ignore
-*.md export-ignore
+*.md  export-ignore
+.gitattributes export-ignore
